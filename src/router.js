@@ -3,6 +3,7 @@
 */
 const test = require("./controller/test")
 const home_search = require('./controller/home_search')
+const shop_list = require('./controller/shop_list')
 
 /* 
    定义接口函数模块
@@ -18,4 +19,5 @@ module.exports = (app) => {
    */
    app.use('/api/test', test)
    app.use('/api/homeSearch', home_search)
+   app.use('/api/shopList', shop_list)
 }

@@ -126,6 +126,7 @@ module.exports = () => {
             {
                 imgUrl: '/imgs/index_page/activity/03.png'
             }
-        ]
+        ],
+        
     }
 }

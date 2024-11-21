@@ -4,9 +4,10 @@
 */
 const test = require('../data/test')
 const home_page = require("../data/home_page")
+const shop_list = require("../data/shop_list")
 
 
-function getHomePageData(data){
+function getHomePageData(data) {
     return {
         code: 0,
         msg: "请求成功",
@@ -16,7 +17,8 @@ function getHomePageData(data){
 
 module.exports = () => {
     return {
-        test: test(),  //test()获取的测试数据
-        homePage: getHomePageData(home_page()) //home_page()获取数据
+        test: test(), //test()获取的测试数据
+        homePage: getHomePageData(home_page()), //home_page()获取数据
+        shopList: shop_list()
     }
 }
