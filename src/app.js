@@ -1,3 +1,11 @@
+/*
+ * @Description  : 请好好写代码
+ * @verdion      : 
+ * @Author       : yunyunzhang
+ * @Date         : 2024-11-29 19:10:53
+ * @LastEditors  : yunyunzhang
+ * @LastEditTime : 2025-04-08 17:17:55
+ */
 const path = require('path')
 const jsonServer = require('json-server')
 const router = require("./router")
@@ -21,7 +29,7 @@ server.use((req, res, next) => {
     const json = res.json.bind(res)
     res.success = (data) => {
         return json({
-            code: 0,
+            code: 1000,
             msg: '请求成功',
             data
         })

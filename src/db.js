@@ -19,6 +19,6 @@ module.exports = () => {
     return {
         test: test(), //test()获取的测试数据
         homePage: getHomePageData(home_page()), //home_page()获取数据
-        shopList: shop_list()
+        shopList: shop_list() //获取商铺列表信息
     }
 }

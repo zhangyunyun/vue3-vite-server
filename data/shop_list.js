@@ -11,7 +11,7 @@ const getItemData = () => ({
   deliveryTime: '30分钟',
   deliveryDistance: '849m',
   deliveryStratingPrice: '￥20.0',
-  deliveryStrategy: '满0.01配送￥0', // 免配送费
+  deliveryStrategy: '满0.01配送￥0', //免配送费
   deliveryTags: ['蓝骑士专送'],
   comments: ['“红柚红心火龙果凤梨约600g三拼”'],
   tops: ['XX区水果热销第2名'],
